@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--
 Name: Sobhan Hussaini
 File: index.html
@@ -14,11 +15,11 @@ A structured webpage about birdwatching for INFT1206 Assignment 1 Part 2.
 </head>
 <body>
 
-  <header>
+  <header role="banner">
     <h1>Birdwatching</h1>
     <img src="welcome-leader.png" alt="a heading banner showing a group of flying birds">
     
-    <nav>
+    <nav role="navigation" aria-label="Main Navigation">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Get started</a></li>
@@ -29,14 +30,14 @@ A structured webpage about birdwatching for INFT1206 Assignment 1 Part 2.
     </nav>
   </header>
 
-  <main>
+  <main role="main">
     <article>
       <h2>Welcome</h2>
       <p>Welcome to Our Fake Birdwatching Site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an experienced ornithologist wanting to share ideas, tips, and photos. So, to get started, click one of the links above!</p>
     </article>
 
-    <aside>
-      <h2>Favourite photos</h2>
+    <aside role="complementary" aria-labelledby="favourite-photos-heading">
+      <h2 id="favourite-photos-heading">Favourite photos</h2>
       <a href="favorite-1.jpg"><img src="favorite-1.jpg" alt="Small black bird with yellow beak"></a>
       <a href="favorite-2.jpg"><img src="favorite-2.jpg" alt="Small bird with blue head and bright feathers"></a>
       <a href="favorite-3.jpg"><img src="favorite-3.jpg" alt="Small brown bird standing on a rock"></a>
@@ -44,7 +45,7 @@ A structured webpage about birdwatching for INFT1206 Assignment 1 Part 2.
     </aside>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <p>This fake website "Birdwatching" is example content derived from MDN's "Structuring a page of content" tutorial.</p>
   </footer>
 
