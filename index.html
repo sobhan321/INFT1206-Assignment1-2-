@@ -130,52 +130,97 @@ footer {
   margin-top: 10px;
 }</style>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--
 Name: Sobhan Hussaini
 File: index.html
 Date: 25 September 2026
 A structured webpage about birdwatching for INFT1206 Assignment 1 Part 2.
 -->
-<title>Birdwatching - INFT1206 Assignment 1 Part 2</title>
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700" rel="stylesheet">
-<link rel="stylesheet" href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/style.css">
-</head>
-<body>
+    <title>Birdwatching</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700"
+      rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
 
-  <header role="banner">
-    <h1>Birdwatching</h1>
-    <img src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/welcome-leader.png" alt="a heading banner showing a group of flying birds">
-    
-    <nav role="navigation" aria-label="Main Navigation">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Get started</a></li>
-        <li><a href="#">Photos</a></li>
-        <li><a href="#">Gear</a></li>
-        <li><a href="#">Forum</a></li>
-      </ul>
-    </nav>
-  </header>
+  <body>
+    <header role="banner">
+      <h1>
+        Birdwatching
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/learn/birds/dove.png"
+          alt="Dove icon">
+      </h1>
 
-  <main role="main">
-    <article>
-      <h2>Welcome</h2>
-      <p>Welcome to Our Fake Birdwatching Site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an experienced ornithologist wanting to share ideas, tips, and photos. So, to get started, click one of the links above!</p>
-    </article>
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Get started</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Gear</a></li>
+          <li><a href="#">Forum</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <aside role="complementary" aria-labelledby="favourite-photos-heading">
-      <h2 id="favourite-photos-heading">Favourite photos</h2>
-      <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-1.jpg"><img src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-1.jpg" alt="Small black bird with yellow beak"></a>
-      <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-2.jpg"><img src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-2.jpg" alt="Small bird with blue head and bright feathers"></a>
-      <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-3.jpg"><img src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-3.jpg" alt="Small brown bird standing on a rock"></a>
-      <a href="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-4.jpg"><img src="https://raw.githubusercontent.com/mdn/learning-area/main/html/introduction-to-html/structuring-a-page-of-content-finished/favorite-4.jpg" alt="Large black raven sitting on a branch"></a>
-    </aside>
-  </main>
+    <main role="main">
+      <article>
+        <h2>Welcome</h2>
 
-  <footer role="contentinfo">
-    <p>This fake website "Birdwatching" is example content derived from MDN's "Structuring a page of content" tutorial.</p>
-  </footer>
+        <p>
+          Welcome to our fake birdwatching site. If this were a real site, it
+          would be the ideal place to come to learn more about birdwatching,
+          whether you are a beginner looking to learn how to get into birding,
+          or an expert wanting to share ideas, tips, and photos with other
+          like-minded people.
+        </p>
 
-</body>
+        <p>
+          So don't waste time! Get what you need, then turn off that computer
+          and get out into the great outdoors!
+        </p>
+      </article>
+
+      <aside role="complementary" aria-labelledby="favourite-photos-heading">
+        <h2 id="favourite-photos-heading">Favorite photos</h2>
+
+        <a
+          href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-1.jpg">
+          <img
+            src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-1_th.jpg"
+            alt="Small black bird, black claws, long black slender beak">
+        </a>
+        <a
+          href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-2.jpg">
+          <img
+            src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-2_th.jpg"
+            alt="Top half of a pretty bird with bright blue plumage on neck, light colored beak, blue headdress">
+        </a>
+        <a
+          href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-3.jpg">
+          <img
+            src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-3_th.jpg"
+            alt="Top half of a large bird with white plumage, very long curved narrow light colored break">
+        </a>
+        <a
+          href="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-4.jpg">
+          <img
+            src="https://mdn.github.io/shared-assets/images/examples/learn/birds/favorite-bird-4_th.jpg"
+            alt="Large bird, mostly white plumage with black plumage on back and rear, long straight white beak">
+        </a>
+      </aside>
+    </main>
+
+    <footer role="contentinfo">
+      <p>
+        This fake website example is CC0 — any part of this code may be reused
+        in any way you wish. Original example written by Chris Mills, 2016.
+      </p>
+
+      <p>
+        <a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a>
+        by Lorc.
+      </p>
+    </footer>
+  </body>
 </html>
