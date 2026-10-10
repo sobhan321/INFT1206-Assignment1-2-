@@ -47,3 +47,6 @@ caption {
 table {
   margin: 0 auto;
 }
+caption {
+  font-style: italic;
+}
