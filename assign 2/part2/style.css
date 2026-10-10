@@ -44,3 +44,6 @@ caption {
 .column-border {
   border: 2px solid black;
 }
+table {
+  margin: 0 auto;
+}
