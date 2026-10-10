@@ -50,3 +50,6 @@ table {
 caption {
   font-style: italic;
 }
+th {
+  letter-spacing: 1px;
+}
