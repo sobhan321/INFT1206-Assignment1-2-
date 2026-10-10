@@ -104,3 +104,6 @@ video {
 figure {
   text-align: center;
 }
+figcaption {
+  font-style: italic;
+}
